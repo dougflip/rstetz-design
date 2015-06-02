@@ -1,0 +1,120 @@
+body {
+  font-family: 'Century Gothic' Arial sans-serif;
+}
+
+.header {
+  padding-top: 20px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+}
+
+.header-name {
+  font-size: 32px;
+  color: #fff;
+}
+
+.global-nav .nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.global-nav .nav-list li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.main-nav {
+  background-color: #252525;
+}
+
+.main-nav .nav-list {
+  border-bottom: 10px solid #00aeef;
+}
+
+.main-nav .nav-list li {
+  background-color: #363636;
+}
+
+.main-nav .nav-list li.is-selected {
+  background-color: #00aeef;
+}
+
+.content {
+  min-height: 400px;
+}
+
+.banner {
+  min-height: 200px;
+}
+
+.skills {
+  background-color: #000;
+  min-height: 200px;
+}
+
+.about {
+  background-color: #eee;
+  min-height: 200px;
+}
+
+.extra {
+  background-color: #000;
+  min-height: 200px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #222,
+    #222 2px,
+    #000 4px,
+    #000 8px
+  );
+}
+
+.footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-nav {
+  background-color: #000;
+}
+
+.footer-nav .nav-list {
+  border-top: 10px solid #00aeef;
+}
+
+.primary-color, .header-tagline {
+    color: #00aeef;
+}
+
+.menu-item {
+  color: #363636
+}
+
+.menu-bar {
+  color: #252525;
+}
+
+/**
+Link Styles
+**/
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:link {}
+
+a:visited {}
+
+a:hover {}
+
+a:active {}
